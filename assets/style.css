@@ -19,3 +19,6 @@ body {
 .navbar-css .drop-css:hover .dropdown-css {
   display: block !important;
 }
+.section-css {
+  border: none !important;
+}
