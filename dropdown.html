@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -8,44 +8,978 @@
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
             rel="stylesheet">
         <style>
-    /* Cursor pointer for hover */
-    .accordion-button {
-      cursor: pointer;
-    }
-  </style>
+                                                /* Cursor pointer for hover */
+                                                .accordion-button {
+                                                cursor: pointer;
+                                                }
+                                            </style>
     </head>
     <body>
         <div class="container mt-5">
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <a href="#"
-                            class="accordion-button collapsed text-decoration-none"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne"
-                            aria-expanded="false"
-                            aria-controls="collapseOne">
-                            Book
-                        </a>
-                    </h2>
-                    <div id="collapseOne"
-                        class="accordion-collapse collapse"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the first item’s accordion
-                                body.</strong>
-                            Yeh ab hover par khulega.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Course Code</th>
+                        <th scope="col">Download</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>EDU301</td>
+                        <td>
+                            <a href="handouts/EDU301.pdf"
+                                download>
+                                Download
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>EDU402</td>
+                        <td>
+                            <a href="handouts/EDU_402_Handout_Updated.pdf"
+                                download>
+                                Download
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>EDU 406</td>
+                        <td>
+                            <a
+                                href="handouts/EDU406-Complete_Handouts_Topicwise.pdf"
+                                download>
+                                Download
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>EDU430</td>
+                        <td>
+                            <a href="handouts/EDU_430.pdf"
+                                download>
+                                Download
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>EDU 601</td>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-        <script>
-    
-  </script>
-    </body>
-</html>
+                        <td>
+                            <a href="handouts/EDU_601Complete_handouts.pdf"
+                                download>
+                                Download
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>EDU 602</td>
+                        <td>
+                            <a href="handouts/EDU_602.pdf"
+                                download>
+                                Download
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>EDU 401</td>
+
+                        <td>
+                            <a href="handouts/EDU401.pdf"
+                                download>
+                                Download
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>EDU 431</td>
+                        <td>
+                            <a
+                                href="handouts/EDU431.pdf"
+                                download>
+                                Download
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td>MGMT 623 (alt. code=HRM623)</td>
+                        <td>
+                            <a href="handouts/MGMT623.pdf"
+                                download>
+                                Download
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td>STA 630</td>
+                        <td>
+                            <a href="handouts/STA630.pdf"
+                                download>
+                                Download
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">11</th>
+                        <td>MGMT 623</td>
+                        <td>
+                            <a
+                                href="handouts/MGMT6231.pdf"
+                                download>
+                                Download
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">12</th>
+                        <td>Cs101</td>
+                        <td>
+                            <a
+                                href="handouts/CS101_Updated_Handouts-1.pdf"
+                                download>
+                                Download
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">13</th>
+                        <td>ENG101</td>
+
+                        <td><a
+                                href="handouts/ENG101_handouts_1_45.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">14</th>
+                        <td>MTH100</td>
+
+                        <td><a
+                                href="handouts/mth_100.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">15</th>
+                        <td>SOC101</td>
+
+                        <td><a
+                                href="handouts/SOC101_handouts_1_45.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">16</th>
+                        <td>ETH202</td>
+
+                        <td><a
+                                href="handouts/ETH202.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">17</th>
+                        <th>17</td>
+
+                        <td>ISL202</td>
+
+                        <td><a
+                                href="handouts/ISL202_Complete_Handouts_1-30.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">18</th>
+                        <td>ENG201</td>
+
+                        <td><a
+                                href="handouts/ENG201_Handouts_Final.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">19</th>
+                        <td>MGT111</td>
+
+                        <td><a
+                                href="handouts/mgt111_complete.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">20</th>
+                        <td>PSY101</td>
+
+                        <td><a
+                                href="handouts/PSY101___Introduction_to_Psychology__(Complete).pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">21</th>
+                        <td>PAK301</td>
+                        <td><a
+                                href="handouts/PAK301_handouts_1_30.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">22</th>
+                        <td>ECO402</td>
+
+                        <td><a
+                                href="handouts/ECO402_handouts_1_45.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">23</th>
+                        <td>ECO501</td>
+
+                        <td><a
+                                href="handouts/ECO501_handouts_1_45.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">24</th>
+                        <td>EDU101</td>
+
+                        <td><a
+                                href="handouts/EDU101_Foundations_of_Education.docx"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">25</th>
+                        <td>ENG301</td>
+
+                        <td><a
+                                href="handouts/ENG301_handouts_1_45.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">26</th>
+                        <td>MGT503</td>
+
+                        <td><a
+                                href="handouts/MGT503.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">27</th>
+                        <td>ECO403</td>
+
+                        <td><a
+                                href="handouts/ECO403_handouts_1_45.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">28</th>
+                        <td>ENG401</td>
+
+                        <td><a
+                                href="handouts/ENG401_handouts_1_15.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">29</th>
+
+                        <td>STA301</td>
+
+                        <td><a
+                                href="handouts/STA301_Handouts.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">30</th>
+                        <td>MGT411</td>
+
+                        <td><a
+                                href="handouts/MGT411_handouts_1_45.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">31</th>
+                        <td>MGT602</td>
+
+                        <td><a
+                                href="handouts/Entreprenurship_MGT-602_(Handouts).pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">32</th>
+                        <td>ECO601</td>
+
+                        <td><a
+                                href="handouts/ECO601_handouts_1_45.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">33</th>
+                        <td>MGT211</td>
+
+                        <td><a
+                                href="handouts/Handouts_MGT211_-_Updated.pdf"
+                                download>Download</a></td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">34</th>
+                        <td>ECO404</td>
+
+                        <td><a
+                                href="handouts/ECO404_handouts_1_45.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">35</th>
+                        <td>HRM627</td>
+
+                        <td><a
+                                href="handouts/HRM627_handouts_1_45.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">36</th>
+                        <td>ENG501</td>
+
+                        <td><a
+                                href="handouts/eng501__Handouts_of_History_of_English_Language.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">37</th>
+                        <td>ENG502</td>
+
+                        <td><a
+                                href="handouts/Eng502_Handouts_Final_reviewed.pdf"
+                                download>Download</a></td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">38</th>
+                        <td>ENG506</td>
+
+                        <td><a
+                                href="handouts/ENG506_COMPLETE.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">39</th>
+                        <td>PSY406</td>
+
+                        <td><a
+                                href="handouts/Handouts_1-45_(Final)_PSY406.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">40</th>
+                        <td>EDU410</td>
+
+                        <td><a
+                                href="handouts/EDU410.pdf"
+                                download>Download</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">41<th>
+                                <td>ENG504</td>
+
+                                <td><a
+                                        href="handouts/Handouts_SLA_ENG504.pdf"
+                                        download>Download</a></td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">42<th>
+                                        <td>MGT502</td>
+
+                                        <td><a
+                                                href="handouts/MGT502_handouts_1_45.pdf"
+                                                download>Download</a></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">43<th>
+                                                <td>ENG505</td>
+
+                                                <td><a
+                                                        href="handouts/ENG505_Handouts_File_Final-pdf.pdf"
+                                                        download>Download</a></td>
+
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">44<th>
+                                                        <td>MGT501</td>
+
+                                                        <td><a
+                                                                href="handouts/MGT501_handouts_1_45.pdf"
+                                                                download>Download</a></td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">45<th>
+                                                                <td>SOC401</td>
+
+                                                                <td><a
+                                                                        href="handouts/SOC401_handouts_1_45.pdf"
+                                                                        download>Download</a></td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <th
+                                                                    scope="row">46<th>
+                                                                        <td>ENG515</td>
+
+                                                                        <td><a
+                                                                                href="handouts/ENG515_Teaching_of_Reading_and_writing_Skills.pdf"
+                                                                                download>Download</a></td>
+
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th
+                                                                            scope="row">47<th>
+                                                                                <td>ENG516</td>
+
+                                                                                <td><a
+                                                                                        href="handouts/ENG516_Teaching_of_English_-_Handouts.pdf"
+                                                                                        download>Download</a></td>
+
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th
+                                                                                    scope="row">48<th>
+                                                                                        <td>MCM310</td>
+
+                                                                                        <td><a
+                                                                                                href="handouts/MCM310_handouts_1_45.pdf"
+                                                                                                download>Download</a></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <th
+                                                                                            scope="row">49<th>
+                                                                                                <td>ENG511</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/Psycholinguistics_ENG511-Handouts.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">50</th>
+                                                                                                <td>ENG510</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/Sociolinguistics_ENG510_handouts.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">51</th>
+                                                                                                <td>ENG512</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/Handouts__Bilingualism_ENG512.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">52</th>
+                                                                                                <td>ENG513</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/ENG513_Handouts_(1).pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">53</th>
+                                                                                                <td>ENG519</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/ENG519_Handouts.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">54</th>
+                                                                                                <td>ENG520</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/ENG520_Handouts.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">55</th>
+                                                                                                <td>ENG521</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/ENG521_Hnadouts.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">56</th>
+                                                                                                <td>ENG517</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/Eng_517-_CALL-_Handouts_new_(1).pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">57</th>
+                                                                                                <td>ENG503</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/ENG_503_-Handouts_(1).pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">58</th>
+                                                                                                <td>EDU516</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/edu516.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">59</th>
+                                                                                                <td>ENG507</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/Handouts-ENG507_(1).pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">60</th>
+                                                                                                <td>ENG508</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/ENG-508_Handouts.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">61</th>
+                                                                                                <td>ENG514</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/ENG514_Handouts_updated.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">62</th>
+                                                                                                <td>ENG518</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/ENG518_Handouts_File_(1).pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">63</th>
+                                                                                                <td>ENG523</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/ENG523_Discourse_Analysis_Complete_Handouts_[Downloaded_From_Cluesbook.com].pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">64</th>
+                                                                                                <td>EDU305</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/EDU305_Handouts.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">65</th>
+                                                                                                <td>EDU501</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/New_Complete_Booklet_EDU_501.docx"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">66</th>
+                                                                                                <td>EDU403</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/EDU403_Handouts.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">67</th>
+                                                                                                <td>ENG522</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/ENG522_COMPLETE_HANDOUTS.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">68</th>
+                                                                                                <td>MTH101</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/Handouts_MTH101_Reviewed.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">69</th>
+                                                                                                <td>PHY101</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/PHY101-Physics-Complete-Handouts-Pdf.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">70</th>
+                                                                                                <td>PHY301</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/PHY301_handouts_1_45.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">71</th>
+                                                                                                <td>CS201</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/cs201_Handouts.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">72</th>
+                                                                                                <td>CS302</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/CS302_-_Digital_Logic_and_Design_Handouts_(1-45_lectures).pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">73</th>
+                                                                                                <td>ECO401</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/ECO401_handouts_1_45.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">74</th>
+                                                                                                <td>MGT211</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/Handouts_MGT211_-_Updated1.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">75</th>
+                                                                                                <td>MTH301</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/mth301(handouts).pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">76</th>
+                                                                                                <td>CS304</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/CS304_Handouts_(Updated).pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">77</th>
+                                                                                                <td>CS403</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/CS403-Database-Management-Systems-Complete-Handouts-Pdf.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">78</th>
+                                                                                                <td>MGT301</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/MGT301_handouts_1_45.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">79</th>
+                                                                                                <td>MTH202</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/MTH202-Discrete-Mathematics-Complete-Handouts-Pdf.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">80</th>
+                                                                                                <td>MGT503</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/MGT5031.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">81</th>
+                                                                                                <td>CS504</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/CS504_handouts_1_45.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">82</th>
+                                                                                                <td>CS610</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/CS610-Handouts.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">83</th>
+                                                                                                <td>MGT501</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/MGT501_handouts_1_451.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">84</th>
+                                                                                                <td>MGT602</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/MGT-602_(Handouts)_Entreprenurship.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">85</th>
+                                                                                                <td>CS205</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/CS205_-_Information_Security_Handouts.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">86</th>
+                                                                                                <td>CS402</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/CS402_handouts_1_45.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">87</th>
+                                                                                                <td>CS502</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/CS502-highlights.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">88</th>
+                                                                                                <td>MCM301</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/mcm301_handouts_1_45.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">89</th>
+                                                                                                <td>MTH401</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/hanouts_401_(1).pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">90</th>
+                                                                                                <td>STA301</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/STA301-handout.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">91</th>
+                                                                                                <td>CS604</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/CS604_handouts_1_45.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">92</th>
+                                                                                                <td>CS606</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/CS606_handouts_1_45_(1).pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">93</th>
+                                                                                                <td>MTH501</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/Handuts_of_MTH501_Latest.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">94</th>
+                                                                                                <td>CS202</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/Handouts_[CS202_-_Fundamentals_of_Front_End_Development].pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">95</th>
+                                                                                                <td>CS407</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/Handout_CS407_-_Routing_and_Switching.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">96</th>
+                                                                                                <td>CS411</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/CS411_handouts_1_45.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">97</th>
+                                                                                                <td>CS435</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/CS435_Handouts_-Cloud_Computing_V4_(1).docx"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+
+                                                                                                <th
+                                                                                                    scope="row">98</th>
+                                                                                                <td>CS508</td>
+
+                                                                                                <td><a
+                                                                                                        href="handouts/CS508_handouts_1_45.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">99</th>
+                                                                                                <td>CS602</td>
+                                                                                                <td><a
+                                                                                                        href="handouts/CS602_handouts_1_45.pdf"
+                                                                                                        download>Download</a></td>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <th
+                                                                                                    scope="row">100</th>
+                                                                                                <td>CS603</td>
+                                                                                                <td><a
+                                                                                                        href="handouts/CS603_Handouts(MID_TERM).pdf"
+                                                                                                        download>Download</a></td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </div>
+
+                                                                                <script
+                                                                                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+                                                                                <script>
+                                                
+                                            </script>
+                                                                            </body>
+                                                                        </html>
