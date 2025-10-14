@@ -36,3 +36,11 @@ body {
 .text-css {
   color: var(--primary-color) !important;
 }
+/* Footer section  */
+.item-css.itemdown-css:hover .menudown-css {
+  display: block;
+  margin-top: 0;
+}
+.item-css.itemdown-css .toggeldown-css::after {
+  display: none; /* arrow hatane ke liye */
+}
